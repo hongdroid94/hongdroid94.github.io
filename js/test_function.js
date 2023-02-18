@@ -57,7 +57,7 @@ window.onload=function() {
         getUserLocation();
     }
 
-    // 현재 기온 반환 (String) ,e.g. 4,
+    // 현재 기온 반환 (String) ,e.g. 4,흐림
     document.getElementById('getCurrentTemperatureAndSkyStatus').onclick=function() {    
         getCurrentTemperatureAndSkyStatus();
     }
