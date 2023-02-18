@@ -19,7 +19,7 @@ function getUserLocation() {
 }
 
 function getCurrentTemperature() {
-    alert(noAccidentCall.getCurrentTemperature().toString());    
+    alert(noAccidentCall.getCurrentTemperatureAndSkyStatus().toString());    
 }
 
 function getCurrentDustIndexAndResult() {
@@ -58,8 +58,8 @@ window.onload=function() {
     }
 
     // 현재 기온 반환 (int) , open API 상에서 문제 발생시 null 반환 
-    document.getElementById('getCurrentTemperature').onclick=function() {    
-        getCurrentTemperature();
+    document.getElementById('getCurrentTemperatureAndSkyStatus').onclick=function() {    
+        getCurrentTemperatureAndSkyStatus();
     }
 
     // 미세먼지 수치와 정도를 반환 (String) e.g. 12,매우 좋음
