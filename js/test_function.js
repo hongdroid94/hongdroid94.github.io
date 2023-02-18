@@ -18,7 +18,7 @@ function getUserLocation() {
     alert(noAccidentCall.getUserLocation());    
 }
 
-function getCurrentTemperature() {
+function getCurrentTemperatureAndSkyStatus() {
     alert(noAccidentCall.getCurrentTemperatureAndSkyStatus().toString());    
 }
 
