@@ -57,7 +57,7 @@ window.onload=function() {
         getUserLocation();
     }
 
-    // 현재 기온 반환 (int) , open API 상에서 문제 발생시 null 반환 
+    // 현재 기온 반환 (String) ,e.g. 4,
     document.getElementById('getCurrentTemperatureAndSkyStatus').onclick=function() {    
         getCurrentTemperatureAndSkyStatus();
     }
